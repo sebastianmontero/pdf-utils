@@ -1,0 +1,30 @@
+{
+  "name": "@smontero/pdf-utils",
+  "version": "1.0.1",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/node": "^25.5.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^6.0.2"
+  },
+  "types": "dist/index.d.ts",
+  "bin": {
+    "fill-pdf": "dist/bin/fill-pdf.js",
+    "get-fields": "dist/bin/get-fields.js"
+  },
+  "dependencies": {
+    "pdf-lib": "^1.17.1"
+  },
+  "files": [
+    "dist"
+  ]
+}

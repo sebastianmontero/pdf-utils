@@ -1,0 +1,6 @@
+{
+  "my_text_field": "Hello Server!",
+  "my_checkbox": true,
+  "my_radio_group": "Option 2",
+  "my_dropdown": "Bananas"
+}

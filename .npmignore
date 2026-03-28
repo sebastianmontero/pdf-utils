@@ -1,0 +1,19 @@
+# Sources
+src/
+
+# Configs
+tsconfig.json
+.agent/
+
+# Documentation source
+examples/
+
+# Lock files (optional, dependency handling via package.json)
+package-lock.json
+yarn.lock
+
+# Test files if any (for future)
+test/
+coverage/
+*.test.ts
+*.spec.ts
