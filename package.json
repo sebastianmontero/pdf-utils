@@ -1,6 +1,6 @@
 {
   "name": "@smontero/pdf-utils",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "dist/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -13,17 +13,19 @@
   "description": "",
   "devDependencies": {
     "@types/node": "^25.5.0",
+    "pdf-lib": "^1.17.1",
     "ts-node": "^10.9.2",
     "typescript": "^6.0.2"
+  },
+  "peerDependencies": {
+    "pdf-lib": "^1.17.1"
   },
   "types": "dist/index.d.ts",
   "bin": {
     "fill-pdf": "dist/bin/fill-pdf.js",
     "get-fields": "dist/bin/get-fields.js"
   },
-  "dependencies": {
-    "pdf-lib": "^1.17.1"
-  },
+  "dependencies": {},
   "files": [
     "dist"
   ]

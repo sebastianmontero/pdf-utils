@@ -11,8 +11,10 @@ A lightweight Node.js utility and library for identifying and filling form field
 
 ## Installation
 
+This package requires [pdf-lib](https://pdf-lib.js.org/) to be installed in your project:
+
 ```bash
-npm install @smontero/pdf-utils
+npm install @smontero/pdf-utils pdf-lib
 ```
 
 ## CLI Usage
